@@ -81,7 +81,8 @@ for idx = 1 : m
     z_3 = [1 a_2] * Theta2';
     a_3 = sigmoid(z_3);
     delta_3 = a_3 - tmp_y(idx, :);
-    delta_2 = (delta_3 * Theta2)(2:end) .* sigmoidGradient(z_2);
+    % igore bais unit
+    delta_2 = (delta_3 * Theta2(:, 2:end)) .* sigmoidGradient(z_2);
     Theta2_grad = Theta2_grad + delta_3' * [1 a_2];
     Theta1_grad = Theta1_grad + delta_2' * [1 a_1];
 end

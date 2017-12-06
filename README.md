@@ -1,6 +1,6 @@
 # Coursera_ml_code
-code of machline learning lesson in coursera
-ex1 - Linear regression
-ex2 - Logistic regression
-ex3 - Multi classification
-ex4 - neural network
+code of machline learning lesson in coursera\<br>
+ex1 - Linear regression\<br>
+ex2 - Logistic regression\<br>
+ex3 - Multi classification\<br>
+ex4 - neural network\<br>
